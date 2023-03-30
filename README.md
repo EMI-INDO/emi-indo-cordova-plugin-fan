@@ -117,43 +117,40 @@ alert("on Banner Ad Loaded");
 
 ```
 
-## ( Banner ads )
+## ( Banner Ads )
 
-### Event Show a load
+### Event Load a show
 
-- onBannerLoaded
-- onBannerFailedToLoad
-- onBannerClick
-- onBannerLeftApplication
-
-
+- onBannerError
+- onBannerAdLoaded
+- onBannerAdClicked
+- onBannerLoggingImpression
 
 
-## ( Interstitial ads )
+## ( Interstitial Ads )
 
 ### Event Load a Show
 
-- onUnityAdsAdLoaded.Interstitial
-- onUnityAdsFailedToLoad.Interstitial
-- onUnityAdsShowFailure.Interstitial
-- onUnityAdsShowStart.Interstitial
-- onUnityAdsShowClick.Interstitial
-- onUnityAdsShowComplete.Interstitial
+- onInterstitialDisplayed
+- onInterstitialDismissed
+- onInterstitialError
+- onInterstitialAdLoaded
+- onInterstitialAdClicked
+- onInterstitialLoggingImpression
 
 
 
-
-## ( Video ads )
+## ( Video Ads )
 
 ### Event Load a Show
 
 
-- onUnityAdsAdLoaded.video
-- onUnityAdsFailedToLoad.video
-- onUnityAdsShowFailure.video
-- onUnityAdsShowStart.video
-- onUnityAdsShowClick.video
-- onUnityAdsShowComplete.video
+- onRewardedError
+- onRewardedAdLoaded
+- onRewardedAdClicked
+- onRewardedLoggingImpression
+- onRewardedVideoCompleted
+- onRewardedVideoClosed
 
 
 
