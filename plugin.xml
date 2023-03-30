@@ -6,7 +6,7 @@
   <name>emiFanPlugin</name>
   <description>Cordova Plugin Facebook AudienceNetwork Ads</description>
 	<author>EMI INDO</author>
-	<license>MIT</license>
+	<license>ISC</license>
 
 
    <js-module src="www/emiFanPlugin.js" name="emiFanPlugin">
