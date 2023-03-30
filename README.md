@@ -2,8 +2,9 @@
  Cordova Plugin  Facebook Audience Network (suppoet bidding admob)
 
 
-###  Facebook Audience Network SDK (Android: 6.+)
-###  Facebook bidding SDK Admob (Android: 6.13.7.0)
+###  Facebook Audience Network SDK (default: 6.+)
+###  Facebook bidding SDK Admob (default: 6.13.7.0)
+###  PLAY SERVICES VERSION Admob (default: 21.5.0)
 
 > __Note__
 > - ## It's Not a fork, it's purely rewritten, clean of 3rd party code.
