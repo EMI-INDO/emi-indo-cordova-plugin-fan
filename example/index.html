@@ -1,0 +1,68 @@
+<html>
+<head>
+    <script type="text/javascript" src="cordova.js"></script>
+</head>
+<body>
+
+<script>
+
+var bannerPlacementID = "296076234782928_340670626990155"
+// Banner Size =   Standard-Banner | Large-Banner | Medium-Rectangle
+var size = "Standard-Banner"
+
+var interstitialPlacementID = "296076234782928_340669023656982"
+var rewardedPlacementID = "623916604955760_623919094955511"
+
+
+document.addEventListener("deviceready", function(){
+
+/////////////////////   Initializing the SDK
+	cordova.plugins.emiFanPlugin.sdkInitialize();
+
+
+/////////////////////   Event Banner Ad >  onBannerError | onBannerAdLoaded | onBannerAdClicked | onBannerLoggingImpression
+document.addEventListener('onBannerAdLoaded', () => {
+
+alert("on Banner Ad Loaded");
+
+});
+
+
+
+
+/////////////////////   Event interstitial Ad > onInterstitialDisplayed | onInterstitialDismissed | onInterstitialError | onInterstitialAdLoaded | onInterstitialAdClicked | onInterstitialLoggingImpression
+document.addEventListener('onInterstitialAdLoaded', () => {
+
+alert("Interstitial ad is loaded and ready to be displayed");
+
+});
+
+
+
+/////////////////////   Event Banner Ad > onRewardedError | onRewardedAdLoaded | onRewardedAdClicked | onRewardedLoggingImpression | onRewardedVideoCompleted | onRewardedVideoClosed
+document.addEventListener('onRewardedAdLoaded', () => {
+
+alert("Rewarded video ad is loaded and ready to be displayed");
+
+});
+
+
+
+
+
+}, false);
+</script>
+
+
+<p><button onclick="cordova.plugins.emiFanPlugin.showBannerAd(bannerPlacementID, size);">Load a show Banner Ad</button></p>
+<p><button onclick="cordova.plugins.emiFanPlugin.hideBannerAd();">hide Banner Ad</button></p>
+
+<p><button onclick="cordova.plugins.emiFanPlugin.loadInterstitialAd(interstitialPlacementID);">Load Interstitial Ad</button></p>
+<p><button onclick="cordova.plugins.emiFanPlugin.showInterstitialAd();">Show Interstitial Ad</button></p>
+
+<p><button onclick="cordova.plugins.emiFanPlugin.loadRewardedVideoAd(rewardedPlacementID);">Load Rewarded Video Ad</button></p>
+<p><button onclick="cordova.plugins.emiFanPlugin.showRewardedVideoAd();">Show Rewarded Video Ad</button></p>
+
+
+</body>
+</html>
