@@ -5,6 +5,9 @@
 ###  Facebook Audience Network SDK (default: 6.+)
 ###  Facebook bidding SDK Admob (default: 6.13.7.0)
 ###  PLAY SERVICES VERSION Admob (default: 21.5.0)
+- [How to Set Up Bidding ](https://developers.google.com/admob/android/mediation/meta?fbclid=IwAR19pu8T1R7yE1LcjU8fW_MMYmmpuMAPgbCIcRLTKTh-AKOD_Mttu4dvz38) 
+
+
 
 > __Note__
 > - ## It's Not a fork, it's purely rewritten, clean of 3rd party code.
@@ -38,6 +41,7 @@ https://user-images.githubusercontent.com/78555833/228741293-b2dab6fc-9d13-4f0e-
 ## Coming soon
 - Rewarded Interstitial Ads
 - Set banner position
+
 ## 💰Sponsor this project
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/emiindo)   
   
@@ -62,6 +66,8 @@ cordova plugin rm emi-indo-cordova-plugin-fan
 ## deviceready
 
 [Example ](https://github.com/EMI-INDO/emi-indo-cordova-plugin-fan/blob/main/example/index.html) - index.html:
+
+[How to Set Up Bidding ](https://developers.google.com/admob/android/mediation/meta?fbclid=IwAR19pu8T1R7yE1LcjU8fW_MMYmmpuMAPgbCIcRLTKTh-AKOD_Mttu4dvz38) 
 
 
 ```sh
