@@ -1,7 +1,7 @@
 {
   "name": "emi-indo-cordova-plugin-fan",
   "version": "0.0.1",
-  "description": "",
+  "description": "Cordova-Plugin-Facebook-Audience-Network-bidding-admob",
   "cordova": {
     "id": "emi-indo-cordova-plugin-fan",
     "platforms": [
@@ -10,8 +10,26 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "javascript",
+    "admob",
+    "Unity",
+    "cordova-plugin-facebook",
+    "cordova-plugin-facebook-ads",
+    "facebook",
+    "cordova-plugin-facebook-ads-free",
+    "facebook-audience-network",
+    "construct-3"
+    
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "EMI INDO",
+  "license": "MIT",
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMI-INDO/emi-indo-cordova-plugin-fan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EMI-INDO/emi-indo-cordova-plugin-fan/issues"
+  },
+  "homepage": "https://github.com/EMI-INDO/emi-indo-cordova-plugin-fan"
 }
