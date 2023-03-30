@@ -156,6 +156,10 @@ alert("on Banner Ad Loaded");
 - onRewardedVideoClosed
 
 
+### Platform 
+- Android
+
+
 
 
                   
